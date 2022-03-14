@@ -23,6 +23,11 @@ public class Client {
     private String name;
     private String email;
 
+    public Client(String fullName, String emailAddress) {
+        this.setName(fullName);
+        this.setEmail(emailAddress);
+    }
+
     public Integer getId() {
         return id;
     }
